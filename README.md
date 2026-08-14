@@ -1,2 +1,80 @@
-# hydrolanaco
 
+# Hydrolana Co. — Website Project Proposal
+
+##  Student Information
+* **Student Name:** Milton Nxumalo
+* **Student ID:** ST10124462
+* **Course Code:** WEDE5020w
+* **Module Name:** Introduction to web development
+
+---
+
+## 📝 Project Overview (Complete)
+Hydrolana Co. is an innovative beverage startup founded in 2026 in Johannesburg East, South Africa. The company was established to address the devastating ecological crisis caused by single-use plastic water bottles. Hydrolana Co. sources premium, natural spring water from protected underground aquifers located in Gauteng. 
+
+The core mission of the organization is to provide South Africans with pure, premium hydration while actively eliminating plastic waste through infinitely recyclable, eco-friendly aluminum and glass packaging formats. The overarching vision is to set the definitive benchmark for sustainable retail beverage packaging across Africa by 2030, catering to health-conscious consumers, fitness enthusiasts, and corporate environments.
+
+---
+
+## 🎯 Website Goals and Objectives
+* **Direct-to-Consumer Storefront:** Establish an immediate e-commerce channel facilitating reliable home delivery case ordering.
+* **Educational Eco-Portal:** Provide a metrics-driven data portal tracking local ecological plastic footprints vs. aluminum recyclability rates within South Africa.
+* **Corporate Lead Capture:** Acquire a consistent stream of high-volume business-to-business (B2B) hospitality, hotel, gym chain, and office park catering leads.
+* **Key Performance Indicators (KPIs):**
+  * **Sales Conversion:** Optimize the check-out funnel to convert 2.5% of new site visitors into paying clients within 90 days.
+  * **Lead Capture:** Register at least 40 verified business buyers via the dedicated wholesale ingestion pathways monthly.
+  * **User Engagement:** Incorporate aggressive graphic file compression configurations to preserve lightning-fast cross-device page loads and reduce bounce rates.
+
+---
+
+## ⚡ Key Features and Functionality
+* **Index Page (Homepage):** High-impact minimalist grid layout hosting cold aluminum container focus photography alongside an immersive hero section.
+* **About Us Page:** Transparency index detailing Gauteng aquifer sourcing, filtration cycles, and the brand's founding background.
+* **Services Page:** Responsive e-commerce grid allowing customers to sort by product types (Still vs. Sparkling), select quantities, and append items to an active checkout basket.
+* **Gallery Page:** Highly optimized image showcase tracking retail packaging aesthetics, local distribution, and sustainable ecological data matrices.
+* **Contact Page:** A multi-layered interaction panel hosting business operational metrics (hours, telephone, mail links) adjacent to a prioritized B2B wholesale client inquiry web form and local map asset.
+
+---
+
+## 📅 Timeline and Milestones
+* **Weeks 1–2 (Planning & Research):** Complete core copywriting matrices, harvest graphic media configurations, and map out structural page layouts. *(Status: Complete)*
+* **Weeks 2–3 (Basic Layout Coding):** Build out the baseline directory architecture of all multi-page layouts using clean, semantic HTML layout tags.
+* **Weeks 3–4 (Styling & Interactivity):** Implement fluid media queries to manage device rendering across smartphones and program active state updates for the shopping cart.
+* **Weeks 4–5 (Testing & Launching):** Audit broken asset routes, clean page code elements, verify fallback rendering parameters on major web browsers, and push live prior to the deadline.
+
+---
+
+## 🔍 Part 1 Details
+This repository contains the initialization of the web project structure (Part 1). Future submissions (Part 2 and Part 3) will scale out detailed CSS responsive stylesheet bindings and advanced JavaScript state engines. 
+
+The design blueprint implements a rigid corporate style guide optimized for consumer trust:
+* **Color Scheme:** Deep ocean blue (trust, purity), crisp sky blue (freshness), clean white (hygiene), and soft mint green (nature).
+* **Typography:** Montserrat (Bold, Sans-Serif) for immediate structural headings; Open Sans (Regular, Sans-Serif) for legible body text layouts.
+
+---
+
+## 🗺️ Sitemap
+```text
+Hydrolana Website Root (/)
+│
+├── 🏠 index.html (Homepage, Core Branding Callout, Hero Graphic Window)
+├── 💧 about.html (Company Story, Aquifer Overview, Mission Statements)
+├── 🛒 services.html (E-commerce Storefront, Cased Products, Still/Sparkling Toggle)
+├── 📸 gallery.html (Compressed Image Matrix, Sustainability Performance Graphics)
+└── 📞 contact.html (Operational Details, B2B Bulk Lead Intake Form, Location Map)
+```
+
+---
+
+## 🔄 Changelog
+### [v1.0.0] - Part 1 Blueprint (2026-08-14)
+* Initialized complete document infrastructure mapping.
+* Drafted semantic core pages matrix framework (`index`, `about`, `services`, `gallery`, `contact`).
+* Incorporated specified operational telemetry data (Johannesburg East, +27 62 562 5179, Hydrolanacow@gmail.com, 8am-5pm).
+* Set base retail pricing variables inside product templates (R180 Still 12-Pack / R195 Sparkling 12-Pack).
+
+---
+
+## 📚 References
+* World Wildlife Fund South Africa. (2025). *Plastics Policy and Recyclability Realities in Local Consumer Markets.*
+* W3C Web Accessibility Initiative. (2025). *Web Content Accessibility Guidelines (WCAG) 2.2 Framework.*
