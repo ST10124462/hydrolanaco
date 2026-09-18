@@ -78,3 +78,38 @@ Hydrolana Website Root (/)
 ## 📚 References
 * World Wildlife Fund South Africa. (2025). *Plastics Policy and Recyclability Realities in Local Consumer Markets.*
 * W3C Web Accessibility Initiative. (2025). *Web Content Accessibility Guidelines (WCAG) 2.2 Framework.*
+
+PART 2 
+ # Hydrolana Co. — Website Project Documentation
+
+## 👤 Student Information
+* **Name:** Milton Nxumalo
+* **Student Number:** ST10124462
+* **Module Code:** WEDE5020 (Introduction to Web Development)
+
+---
+
+## 🎨 Design Aesthetic & Technical Specifications
+* **Primary Color (Deep Ocean Blue):** `#0B3C5D` — Establishes corporate brand trust, safety, and pure water representation.
+* **Secondary Color (Crisp Sky Blue):** `#328CC1` — Delivers a fresh, refreshing, and clean hydration aesthetic.
+* **Accent Color (Soft Mint Green):** `#A3E4D7` — Represents natural Gauteng underground aquifers and ecological friendliness.
+* **Background Base (Clean White):** `#FFFFFF` — Ensures pristine hygiene layouts, cross-browser contrast, and environmental care.
+* **Typography Hierarchy:**
+  * **Headings (`<h1>`, `<h2>`, `<h3>`):** Montserrat (Bold, Sans-Serif) — Chosen for clean, high-impact visibility across viewports.
+  * **Body Copy (`<p>`, `a`, `label`):** Open Sans (Regular, Sans-Serif) — Optimized specifically for fluid cross-browser text legibility.
+
+---
+
+## 🕒 Formative 1 Part 1 — Feedback Changelog
+In direct response to the Part 1 feedback report, the following structural, content, and workflow remediations have been implemented:
+
+### Added
+- Incorporated an interactive business-to-business (B2B) corporate hospitality lead ingestion inquiry web form on `contact.html` to capture wholesale event contracts.
+- Embedded clear, structural developer documentation comments (`<!-- comments -->`) across all HTML page templates to outline layout divisions.
+- Injected verified regional eco-metrics, Gauteng aquifer sourcing narratives, and explicit World Wildlife Fund South Africa (2025) policy citations to remove all placeholder text.
+- Created a dedicated `/wireframes` directory containing low-fidelity spatial blueprints showing desktop versus responsive vertical mobile columns.
+
+### Changed & Corrected
+- Standardized file extensions from legacy variations (`aboutus.html`, `contactus.html`) to unified, lower-case configurations (`about.html`, `contact.html`) to resolve 404 navigation breaks.
+- Refactored loose markup assets into explicit HTML5 semantic layout structures (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`) across all five core pages.
+- Transitioned Git revision workflows away from singular bulk tracking into a sequence of descriptive, isolated commits.
