@@ -1,0 +1,261 @@
+/* ========================================== */
+/* PART 1 */
+/* ========================================== */
+
+/* 1. Global Reset (Makes the site look identical across all browsers) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Base Typography & Background Colors */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFFFFF; /* Clean White base */
+    color: #0B3C5D;            /* Deep Ocean Blue text */
+    line-height: 1.6;
+}
+
+/* 3. Heading Styles (Montserrat font for crisp, high-impact titles) */
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #0B3C5D;            /* Deep Ocean Blue */
+    margin-bottom: 1rem;
+}
+
+/* 4. Link & Image Defaults */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+/* ========================================== */
+/* THE HEADER & NAVIGATION BAR        */
+/* ========================================== */
+
+/* 1. The Fixed Header Container */
+header {
+    position: fixed;        /* Lock the header to the top of the screen */
+    top: 0;
+    left: 0;
+    width: 100%;            /* Stretch it completely across the window */
+    background-color: #0B3C5D; /* Your brand Deep Ocean Blue */
+    padding: 1rem 2rem;     /* Create clean spacing inside the bar */
+    z-index: 1000;          /* Keep it on top of all other elements */
+    display: flex;          /* Activate Flexbox layout mechanics */
+    justify-content: center; /* Center your navigation menu links */
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add a subtle drop shadow */
+}
+
+/* 2. The Navigation Links Box */
+nav {
+    display: flex;          /* Arrange link items horizontally in a row */
+    gap: 1.5rem;            /* Separate each link with consistent space */
+}
+
+/* 3. The Individual Links styling */
+nav a {
+    color: #FFFFFF;         /* Crisp text contrast against dark blue */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+/* 4. The Content Buffer Cushion */
+/* Because the header is fixed, it floats above the page. We add a top 
+   margin to our <main> container so the top content isn't hidden beneath it! */
+main {
+    margin-top: 70px; 
+}
+/* ========================================== */
+/*  THE CONTENT LAYOUT                 */
+/* ========================================== */
+
+/* 1. Global Page Content Layout Framework */
+main {
+    margin-top: 80px;         /* Buffer cushion to push content below the fixed navbar */
+    max-width: 1100px;        /* Restricts content width so it is comfortable to read */
+    margin-left: auto;        /* Centers the entire main section box on the desktop screen */
+    margin-right: auto;
+    padding: 2rem 1.5rem;     /* Creates a uniform margin on left/right edges */
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;                /* Generates generous space between separate sections */
+}
+
+/* 2. Structured Section Block Layout */
+section {
+    background-color: #FFFFFF;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Adds a subtle, modern depth border */
+}
+
+/* 3. Product Catalog (Services Page) */
+#product-catalog {
+    display: grid;            /* Activates layout grid mechanics */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Auto-aligns columns side-by-side */
+    gap: 2rem;
+}
+
+article.product-item {
+    border: 2px solid #328CC1; /* Crisp Sky Blue border framing */
+    padding: 1.5rem;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+}
+
+.price {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #328CC1;            /* Distinct color callout for retail pricing rules */
+    margin: 0.5rem 0;
+}
+
+/* 4. Form Layout (Contact Page) */
+form p {
+    margin-bottom: 1.2rem;     /* Separates individual form fields beautifully */
+}
+
+label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 0.4rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid #328CC1;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+    color: #0B3C5D;
+}
+/* ========================================== */
+/* INTERACTION */
+/* ========================================== */
+
+/* 1. Global Navigation Link Interactivity Transitions */
+nav a {
+    transition: color 0.3s ease; /* Ensures smooth fading, not a harsh snap */
+}
+
+nav a:hover {
+    color: #A3E4D7;              /* Fades into Soft Mint Green when hovered */
+}
+
+nav a:active {
+    color: #328CC1;              /* Changes to Crisp Sky Blue the exact microsecond clicked */
+}
+
+/* 2. Interactive Input Focus Highlights (Form Inputs) */
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #0B3C5D;        /* Darkens the border color to Deep Ocean Blue while typing */
+    background-color: #F9FBFC;   /* Shifts the background slightly to highlight active field */
+    outline: none;               /* Eliminates standard native browser rings */
+    transition: all 0.3s ease;
+}
+
+/* 3. Button Call-To-Action Interactivity Blueprint */
+button {
+    background-color: #328CC1;    /* Starts at Crisp Sky Blue */
+    color: #FFFFFF;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+button:hover {
+    background-color: #0B3C5D;    /* Smoothly inverts to Deep Ocean Blue on hover */
+}
+
+button:active {
+    transform: scale(0.97);       /* Gives a tactile compression click effect when pressed */
+}
+/* ========================================== */
+/*RESPONSIVE DESIGN    */
+/* ========================================== */
+
+/* ------------------------------------------ */
+/* 1. TABLET LAYOUT  */
+/* ------------------------------------------ */
+@media screen and (max-width: 768px) {
+    main {
+        padding: 1.5rem 1rem;
+        gap: 2rem;
+    }
+    
+    section {
+        padding: 1.5rem;
+    }
+}
+
+/* ------------------------------------------ */
+/* 2. SMARTPHONE MOBILE  */
+/* ------------------------------------------ */
+@media screen and (max-width: 480px) {
+    /* Fixed Navigation Restructuring */
+    header {
+        padding: 1rem;
+        flex-direction: column; /* Stack branding logo over menu links vertically */
+        gap: 0.75rem;
+    }
+    
+    nav {
+        gap: 0.8rem;
+        flex-wrap: wrap; /* Permits menu links to wrap elegantly instead of overflowing */
+        justify-content: center;
+    }
+    
+    nav a {
+        font-size: 0.9rem; /* Slightly scales text down for touch screens */
+    }
+
+    /* Buffer adjustment for the taller phone navbar */
+    main {
+        margin-top: 110px;
+        padding: 1rem 0.5rem;
+    }
+
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    /* Force product layouts and display areas to stack in 1 column */
+    #product-catalog {
+        grid-template-columns: 1fr; /* Forces side-by-side products into a vertical stack */
+        gap: 1.5rem;
+    }
+
+    article.product-item {
+        padding: 1.2rem;
+    }
+    
+    /* Ensure maps and showcase visuals don't stretch layout weirdly */
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
