@@ -120,7 +120,7 @@ This is the website project for **Hydrolana Co.** In Part 3, we added JavaScript
 
 ## 🚀 Live Website Link
 *   **Live Website URL:** [https://hydrolanaco.netlify.app]
-*   **GitHub Repository:** https://github.com
+*   **GitHub Repository:** [https://github.com/ST10124462/hydrolanaco]
 
 ---
 
