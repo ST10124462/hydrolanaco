@@ -119,7 +119,7 @@ In direct response to the Part 1 feedback report, the following structural, cont
 This is the website project for **Hydrolana Co.** In Part 3, we added JavaScript to make the website interactive, updated the SEO tags so people can find the site on Google, and built working forms with validation.
 
 ## 🚀 Live Website Link
-*   **Live Website URL:** [Insert Netlify or GitHub Pages Link Here]
+*   **Live Website URL:** [https://hydrolanaco.netlify.app]
 *   **GitHub Repository:** https://github.com
 
 ---
