@@ -113,3 +113,50 @@ In direct response to the Part 1 feedback report, the following structural, cont
 - Standardized file extensions from legacy variations (`aboutus.html`, `contactus.html`) to unified, lower-case configurations (`about.html`, `contact.html`) to resolve 404 navigation breaks.
 - Refactored loose markup assets into explicit HTML5 semantic layout structures (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`) across all five core pages.
 - Transitioned Git revision workflows away from singular bulk tracking into a sequence of descriptive, isolated commits.
+
+# Hydrolana Co. Website Project - Part 3
+
+This is the website project for **Hydrolana Co.** In Part 3, we added JavaScript to make the website interactive, updated the SEO tags so people can find the site on Google, and built working forms with validation.
+
+## 🚀 Live Website Link
+*   **Live Website URL:** [Insert Netlify or GitHub Pages Link Here]
+*   **GitHub Repository:** https://github.com
+
+---
+
+## 🛠️ Part 2 Feedback & Fixes (Changelog)
+Here is a list of changes we made to improve the website based on the feedback from Part 2.
+
+| Date | What We Changed | What We Did | Why We Did It |
+| :--- | :--- | :--- | :--- |
+| 2026-10-28 | Better HTML Layout | Changed generic tags to clean HTML5 semantic tags like `<header>`, `<nav>`, `<main>`, and `<footer>`. | Makes the site structure clean and helps search engines read it better. |
+| 2026-10-29 | Cleaned up CSS | Moved all internal and inline styles into one central `style.css` file. | Keeps the code organized and makes the pages load faster. |
+| 2026-10-31 | Image Names & Text | Renamed all image files to clean, simple lowercase names and added clear `alt` text descriptions. | Fixes loading errors and helps with image search optimization. |
+| 2026-11-01 | Added Code Comments | Added simple comments throughout the HTML, CSS, and JS files. | Explains how the code works so it is easy for anyone to read. |
+
+---
+
+## 💻 Features Added in Part 3
+
+### 1. JavaScript Interactivity
+*   **Interactive Elements:** Added a clean accordion for the FAQ section so users can click to open answers without wasting space.
+*   **Interactive Maps:** Embedded a real, moving map using the **Leaflet.js** library to show the business location.
+*   **Gallery Lightbox:** Created a popup box for the project gallery. When a user clicks a picture, it opens up larger on the screen.
+*   **Dynamic Search Filter:** Built a fast search bar that filters the services on the page instantly as you type.
+
+### 2. Search Engine Optimization (SEO)
+*   **On-Page SEO:** Wrote unique `<title>` tags and `<meta description>` tags for every single page.
+*   **Image Optimisation:** Every picture has clear description text (`alt` attribute).
+*   **Files for Crawlers:** Created standard `robots.txt` and `sitemap.xml` files to help search engines index the site correctly.
+
+### 3. Forms & Validation Suite
+*   **enquiry.html:** Has inputs for name, email, dropdown options, and radio choices to let clients ask about specific water systems.
+*   **contact.html:** A simple form for general messages.
+*   **JavaScript Validation:** Custom code checks inputs instantly. If something is wrong or empty, it shows a clear error message on screen.
+*   **Instant Feedback:** When the form is submitted correctly, a success message pops up immediately without refreshing the page.
+
+---
+
+## 📚 References
+*   **Leaflet.js Library:** Leaflet. (2026). *Leaflet - an open-source JavaScript library for mobile-friendly interactive maps*. Available at: https://leafletjs.com [Accessed 1 November 2026].
+*   **HTML5 Standards:** W3C. (2026). *HTML Living Standard*. Available at: https://w3.org [Accessed 30 October 2026].

@@ -258,4 +258,128 @@ button:active {
         width: 100%;
         height: auto;
     }
+}/* ==========================================================================
+   PART 3: FORM DESIGN & LAYOUT STYLING
+   ========================================================================== */
+
+
+.form-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #1a1a1a; /* Dark theme to match your background choice */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    font-family: Arial, sans-serif;
+    color: #ffffff;
 }
+
+.form-container h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #00aaff; /* Hydrolana primary water blue theme accent color */
+    border-bottom: 2px solid #333333;
+    padding-bottom: 10px;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #cccccc;
+    font-size: 14px;
+}
+
+.form-group .required {
+    color: #ff3333; /* Red color  */
+}
+
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: #2a2a2a;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #00aaff;
+    box-shadow: 0 0 8px rgba(0, 170, 255, 0.4);
+}
+
+
+#contactForm button[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    background-color: #00aaff;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 10px;
+}
+
+#contactForm button[type="submit"]:hover {
+    background-color: #0088cc;
+}
+
+/* ==========================================================================
+   FORM VALIDATION & ASYNCHRONOUS ERROR/FEEDBACK STYLES
+   ========================================================================== */
+
+
+.error-message {
+    color: #ff3333;
+    font-size: 12px;
+    margin-top: 5px;
+    display: none; /* Stays hidden initially until activated by JavaScript */
+    font-weight: bold;
+}
+
+
+.form-feedback {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.form-feedback.success {
+    background-color: rgba(40, 167, 69, 0.2);
+    border: 1px solid #28a745;
+    color: #28a745;
+}
+
+.form-feedback.error {
+    background-color: rgba(220, 53, 69, 0.2);
+    border: 1px solid #dc3545;
+    color: #dc3545;
+}
+
+.hidden {
+    display: none !important;
+}
+

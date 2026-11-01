@@ -3,6 +3,7 @@
     <head>
 <title>Home | Hydrolana CO </title>
 <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com" />
 
     </head>
        <body>
@@ -31,38 +32,76 @@
                 <p><strong>Business hours:</strong> 8:00AM - 17:00PM</p>
             </section>
 
-           
-            <section id="lead-capture">
-                <h2>B2B Wholesale Inquiries</h2>
-                <form action="#" method="POST">
-                    <p>
-                        <label for="company-name">Company Name:</label><br>
-                        <input type="text" id="company-name" name="company-name" required>
-                    </p>
-                    <p>
-                        <label for="client-email">Business Email:</label><br>
-                        <input type="email" id="client-email" name="client-email" required>
-                    </p>
-                    <p>
-                        <label for="inquiry-details">Catering / Supply Requirements:</label><br>
-                        <textarea id="inquiry-details" name="inquiry-details" rows="4" required></textarea>
-                    </p>
-                    <p>
-                        <button type="submit">Submit Inquiry</button>
-                    </p>
-                </form>
-            </section>
+        <section id="lead-capture" class="form-container">
+            <h2>B2B Wholesale Inquiries</h2>
+            
+            
+            <form id="contactForm" action="#" method="POST" novalidate>
+                
+                
+                <div class="form-group">
+                    <label for="contactName">Company / Full Name <span class="required">*</span></label><br>
+                    <input type="text" id="contactName" name="contactName" placeholder="Your name or company" required>
+                    <span class="error-message" id="contactNameError"></span>
+                </div>
 
-            <section id="location-visuals">
-                <img src="images/ahashd.jpg" width="100%" alt="Hydrolana distribution operations location map">
-            </section>
+                
+                <div class="form-group">
+                    <label for="contactEmail">Business Email <span class="required">*</span></label><br>
+                    <input type="email" id="contactEmail" name="contactEmail" placeholder="name@company.com" required>
+                    <span class="error-message" id="contactEmailError"></span>
+                </div>
+
+                
+                <div class="form-group">
+                    <label for="messageSubject">Inquiry Category <span class="required">*</span></label><br>
+                    <select id="messageSubject" name="messageSubject" required>
+                        <option value="" disabled selected>Choose a purpose...</option>
+                        <option value="wholesale">Bulk Supply / Wholesale Orders</option>
+                        <option value="catering">Catering & Hospitality Services</option>
+                        <option value="partnership">Business Partnership</option>
+                        <option value="other">Other Inquiry</option>
+                    </select>
+                    <span class="error-message" id="subjectError"></span>
+                </div>
+
+                
+                <div class="form-group">
+                    <label for="messageBody">Catering / Supply Requirements <span class="required">*</span></label><br>
+                    <textarea id="messageBody" name="messageBody" rows="4" placeholder="Type your dynamic requirements here..." required></textarea>
+                    <span class="error-message" id="bodyError"></span>
+                </div>
+
+                
+                <button type="submit">Submit Inquiry</button>
+                
+                
+                <div id="contactFeedback" class="form-feedback hidden"></div>
+            </form>
+        </section>
+
+                    <section id="location-visuals">
+            <h2>Our Operational Location</h2>
+            <p>We use Leaflet.js to pinpoint our core distribution footprint across the region.</p>
+            <div id="interactiveMap" style="width: 100%; height: 400px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);"></div>
+        </section>
+
         </main>
 
-       
-        <footer>
-            <p>&copy; 2026 Hydrolana Co. All Rights Reserved.</p>
-        </footer>
-    </body>
+           <footer>
+        <p>&copy; 2026 Hydrolana Co. All Rights Reserved.</p>
+    </footer>
+
+   
+         <script src="https://unpkg.com"></script>
+    <script src="javascript/script.js"></script>
+
+
+
+
+
+</body>
+
 </html>
 
 
